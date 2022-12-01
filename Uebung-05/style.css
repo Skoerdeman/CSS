@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+  font-family: bignoodletitling;
+  background-color: rgb(216, 216, 216);
+}
+
+
+div.img-area {
+  height: 400px;
+  width: 100%;
+  background: url("wemadeit.gif");
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+}
+
+.right-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  
+}
+
+.form-area {
+  display: flex;
+  background-color: white;
+  box-shadow: 50px;
+  box-shadow: 0px 30px 10px 5px #5f5e5e;
+}
+
+input {
+  margin-top: 10px;
+}
+
+textarea{
+  margin-top: 10px;
+}
+
+a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  width: 85px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
